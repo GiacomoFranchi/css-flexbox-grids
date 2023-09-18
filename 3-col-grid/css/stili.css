@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: aqua
+}
+
+nav{
+    background-color: blueviolet;
+    width: 20%;
+    padding: 1rem;
+}
+
+h2{
+    margin: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    background-color: bisque;
+    color: white;
+    margin: 1rem;
+}
+main{
+    background-color: cornflowerblue;
+    width: calc(100% - 40% - 2rem);
+}
+
+aside{
+    background-color: coral;
+    width: 20%;
+}
+
+.flex-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
