@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: calc(70% - 2rem);
+    background-color: palevioletred;
+    padding: 2rem 1rem 4rem;
+
+}
+
+header{
+    height: 100px;
+    background-color: orange;
+    margin-bottom: 1rem;
+}
+
+.flex-container{
+    display: flex;
+    width: 90%;
+    gap:2rem;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.advertisement{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+section{
+    border: 1px solid black;
+}
+
+article{
+    background-color: gray;
+    margin: 1rem;
+}
+
+img{
+    width: 200px;
+}
+
+footer{
+    height: 100px;
+    background-color: chocolate;
+    margin-top: 1rem;
+}
